@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0px;
+}
+.Container{
+    display: flex;
+    height: 800px;
+    font-family: 'Open sans', sans-serif;
+}
+.Informações{
+    background-color: black;
+    padding: 40px;
+    min-width: 250px;
+    width: 250px;
+}
+.Cabeçalho img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid;
+    border-color: white;
+}
+.Cabeçalho h1{
+    text-align: center;
+    font-size: 27.4px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.Cabeçalho h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.Cabeçalho hr{
+    padding: 1px;
+    border: 0px;
+    background-color: rgb(255, 191, 0);
+}
+.Info_basic {
+    color: white;
+    list-style: none;   
+}
+.Contatos {
+    margin-top: 30px;
+}
+.Contatos h2{
+    margin-bottom: 0px;
+}
+.Contatos li{
+    margin-top: 5px;
+}
+.Contatos a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.Contatos a:hover{
+    color: white;
+    color: rgb(255, 191, 0);
+}
+.Educação h2{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.Educação h3{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.Educação h4{
+    margin-top: 0px;
+    color:rgb(255, 191, 0);
+}
+.Detalhes {
+    padding: 40px;
+    background-color: white;
+    font-size: medium;
+}
+.Detalhes h2{
+    margin-top: 0px;
+}
+.Detalhes p{
+    margin-bottom: 30px;
+}
+.Detalhes a{
+    font-weight: bold;
+    color:rgb(255, 191, 0);
+    text-decoration: none;
+}
+.Atualização {
+    font-size: 13px;
+    text-align: right;
+    font-style: italic;
+}
+
+@media (max-width: 992px){
+    .Container {
+        display: block;
+    }
+    .Informações {
+        width: auto;
+    }
+    .Cabeçalho {
+        text-align: center;
+    }
+    .Cabeçalho img{
+        width: 300px;
+        height: 300px;
+    }
+    .Cabeçalho h1{
+        font-size: 30px;
+    }
+    .Cabeçalho h2{
+        font-size: 20px;
+    }
+}
